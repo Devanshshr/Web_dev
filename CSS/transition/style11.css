@@ -1,0 +1,19 @@
+div{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    background-color:aqua;
+    /* transition-property:all;
+    transition-duration:2s;
+    transition-timing-function:steps(3);
+    transition-delay:2sec; */
+    transition:all 2s ease-in-out 2s;
+}
+div:hover{
+    background-color:red;
+    color:white;
+}
+div:active{
+    background-color:green;
+    color:white;
+}
